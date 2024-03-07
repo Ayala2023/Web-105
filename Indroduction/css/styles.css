@@ -1,3 +1,19 @@
 body{
-    background-color: blueviolet;
+    background-color: ivory;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2;
+    font-size: large;
+
+}
+
+h1{
+    color: forestgreen;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2{
+    color: forestgreen;
+    font-weight: 700;
+    text-align: center;
 }
