@@ -3,79 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge"
+    <link rel="stylesheet" href="css/styles.css">
     <title>Tables</title>
-    <style>
-        .container{
-            width: 80%;
-            margin: 10px auto;
-            
-        }
-        table{
-            width: 100%;
-            border-collapse: collapse;
-        }
-        tr{
-            height: 30px;
-        }
-        td{
-            width:16.5%;
-            border: 1px solid black;
-        }
-    </style>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    h2{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+     table{
+        margin: 20px auto;
+     }
+</style>
 </head>
+
 <body>
     <div class="container"> 
         <h1>Table</h1>
-        <a href="tables.html">Tables</a>
+        <nav>
+        <a href="Tables.html">Tables</a>
         <a href="Schedule.html">Schedule</a>
-        <a href="calander.html">calander</a>
-
-        <table>
+        <a href="Calander.html">Calander</a>
+    </nav>
+    <p>&nbsp;</p>
+    <h2>Tables Basics</h2>
+    
+        <table width="80%">
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
+                <th></th>
+                <th>col 1</th>
+                <th>col 2</th>
+                <th>col 3</th>
+                <th>col 4</th>
             </tr>
             <tr>
-                <td>2</td>
-                <td></td>
-                <td colspan="3"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td></td>
+                <th>Row 1</th>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>4</td>
+                <th>Row 2</th>
                 <td rowspan="3"></td>
                 <td></td>
                 <td></td>
                 <td></td>
+            </tr>
+            <tr>
+                <th>Row 3</th>
+                <td></td>
+                <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>5</td>
+                <th>Row 4</th>
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                
             </tr>
             <tr>
-                <td>6</td>
+                <th>Row 5</th>
+                <td colspan="2"></td>
                 <td></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                
             </tr>
         </table>
     </div>
