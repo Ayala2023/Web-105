@@ -1,0 +1,24 @@
+body{
+    background: rgb(63,163,251);
+background: radial-gradient(circle, rgba(63,163,251,1) 2%, rgba(255,91,125,1) 100%);
+}
+
+#colums{
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#move{
+    transform: scale(5) rotate(720deg) translateX(125px) translateY(25px) skewX(10deg);
+    background:darkorchid;
+    width: 70px;
+    height: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+#borderimg {
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30% round;
+    background: gold;
+  }
+  
