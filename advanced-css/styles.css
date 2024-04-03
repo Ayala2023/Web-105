@@ -6,6 +6,8 @@ background: radial-gradient(circle, rgba(63,163,251,1) 2%, rgba(255,91,125,1) 10
 #colums{
     column-count: 3;
     column-gap: 5px;
+    background-color: pink;
+    text-overflow: clip;
 }
 
 #move{
@@ -13,7 +15,7 @@ background: radial-gradient(circle, rgba(63,163,251,1) 2%, rgba(255,91,125,1) 10
     background:darkorchid;
     width: 70px;
     height: 70px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #borderimg {
     border: 15px solid transparent;
@@ -21,4 +23,10 @@ background: radial-gradient(circle, rgba(63,163,251,1) 2%, rgba(255,91,125,1) 10
     border-image: url(border.png) 30% round;
     background: gold;
   }
-  
+  h1{
+    text-align: center;
+    font-size: x-large;
+    border: solid purple;
+    padding: 5px;
+    border-radius: 25px;
+  }
