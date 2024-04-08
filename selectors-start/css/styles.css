@@ -38,6 +38,26 @@ h2{
     margin-left: 15px;
 }
 
+#p1{
+    font-weight: bold;
+    color: blueviolet;
+    padding:38px;
+}
+#p2{
+    font-weight: 300;
+    color: darkgreen;
+    padding-right: 25px;
+    text-align: right;
+}
+
+#p3{
+    font-style: oblique;
+    color: darkblue;
+    padding: 35px;
+    text-align: justify;
+    font-size: x-large;
+    
+}
 main{
     width: 70%;
     box-sizing: border-box;
