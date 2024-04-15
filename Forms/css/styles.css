@@ -1,0 +1,196 @@
+/*
+ Primary color: #F54305
+ Secondary-color: #F46E04
+ warning: #FAE3C0
+ dark-text: #FA1702
+ light-text: #F7B919
+
+  Fonts
+  .bree-serif-regular {
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+ */
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ /*   my styles   */
+
+ body{
+    font-family: "Work Sans", sans-serif;
+    font-size: x-large;
+    line-height: 2;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: plum;
+    border: 5px solid #F46E04
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: white;
+    background: #F54305
+}
+
+h1, h2, h3, h4{
+    font-family: "DM Serif Display", serif;
+}
+
+#mast{
+    text-align: center;
+}
+
+aside{
+    width: 50%;
+    background-color: #FAE3C0;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+
+}
+h1,h2{
+    text-align: center;
+    background-color: #F46E04;
+    color: white;
+    width: 20%;
+    margin: auto;
+}
+h3{
+    text-align: left;
+    width: 10%;
+}
+
+p{
+    color: #FA1702;
+
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+  }

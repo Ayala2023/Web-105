@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Name input section</h2>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <h2>Checkboxs input</h2>
+            <input type="checkbox" id="type1" name="type1" value="Main Dish">
+            <label for="type1"> Angus steak medium rare</label><br>
+            <input type="checkbox" id="type2" name="type2" value="Dessert">
+            <label for="type2"> Chocolate cake shake</label><br>
+            <input type="checkbox" id="type3" name="type3" value="side-dish">
+            <label for="type3"> seasoned grilled asparagus </label><br><br>
+        </form>
+        <h2>Radio input</h2>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Chocolate Cake Shake</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Cherry light dessert</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">Angel Food Cake</label><br>
+        </form>
+        <h2>Selection file input</h2>
+            <form action="/action_page.php">
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+            </form>
+            <h2>Type date input</h2>
+            <form>
+                <label for="bdaymonth">Birthday (month and year):</label>
+                <input type="month" id="bdaymonth" name="bdaymonth">
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+   
+</div>
+    
+</body>
+</html>
