@@ -1,0 +1,40 @@
+.masthead{
+    background-color: rebeccapurple;
+    color:gold;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+.border{
+    border-color: rebeccapurple;
+    border-radius: 10px;
+    max-width: auto;
+}
+
+.container{
+    background-color: gold;
+}
+
+p{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}
+
+img{
+    width: 90%;
+    margin: 10px auto;
+    display:block;
+    border-radius: 20px;
+}
+
+.mt-3{
+    text-align: center;
+    background-color: rebeccapurple;
+    text-decoration: dashed solid white;
+    color: aliceblue;
+    border-radius: 30px;
+    text-overflow: ellipsis;
+}
