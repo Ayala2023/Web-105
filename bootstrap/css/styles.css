@@ -6,12 +6,19 @@
     text-align: center;
     min-height: 100px;
     padding-top: 20px;
+
+    padding: 25px;
+    margin-top: 50px;
 }
 
 .border{
     border-color: rebeccapurple;
     border-radius: 10px;
     max-width: auto;
+}
+
+.bg-purple{
+    background-color: rebeccapurple;
 }
 
 .container{
