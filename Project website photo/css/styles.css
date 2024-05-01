@@ -169,10 +169,10 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align:left;
-  width:auto;
+  width:fit-content;
   border-radius: 10%;
 }
-  h2,h3{
+  h1,h2,h3{
     text-align: center;
     background-color: #F7B919;
     color: white;
@@ -181,8 +181,51 @@ figcaption {
     font-size: x-large;
     border-radius: 30%;
 }
+
+#city{
+  text-align: center;
+  border-radius: 45%;
+}
+
+.container {
+  background-color: #FAE3C0;
+  color: aliceblue;
+  border-radius: 100px;
+  margin: 20px;
+  padding: 20px;
+}
+
+nav{
+    text-align: center;
+    font-size: x-large;
+}
+
+nav a{
+  text-decoration: none;
+  margin-left: 20px;
+  background: purple;
+  padding: 5px 10px;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+nav a:hover{
+  background-color: whitesmoke;
+  color: blueviolet;
+}
+
+b{
+  font-weight: bold;
+  color: #FA1702;
+}
 u{
  color: #F46E04;
+}
+
+p{
+  color: #FA1702;
+  font-size: x-large;
+  text-overflow: ellipsis;
 }
 
 .container{
@@ -199,12 +242,24 @@ article {
 
 footer {
   background-color: #FA1702;
-  padding: 10px;
+  border-radius: 100px;
+  width: auto;
   font-family:  "Merriweather", serif;
   text-align: center;
   font-size: large;
-  color: white
+  color: black;
 }
+
+#footer-font{
+  color:#f1f1f1;
+
+}
+
+#aside-right{
+  text-align: right;
+  border-radius: 50px;
+}
+
   * {
     box-sizing: border-box;
   }
