@@ -5,116 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Your style sheet must go AFTER the bootsrap link -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </head>
   <body>
     <div class="container-fluid masthead">
-      <nav class="navbar navbar-expand-sm bg-purple navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-sm bg-orange navbar-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Home</a>
-          <a class="navbar-brand" href="Upper Peninsula Park Michigan.html">Page Michigan</a>
-          <a class="navbar-brand" href="Mesa Colorado.html">Page Colorado</a>
-          <a class="navbar-brand" href="Crater Diamond Arkansas.html">Page Arkansas</a>
-          <a class="navbar-brand" href="Grand Canyon.html">Page Grand Canyon</a>
+          <a class="navbar-brand" href="pages/Trip Michigan.html">Page Michigan</a>
+          <a class="navbar-brand" href="pages/Trip Colorado.html">Page Colorado</a>
+          <a class="navbar-brand" href="pages/Trip Arkansas.html">Page Arkansas</a>
+          <a class="navbar-brand" href="pages/Trip Arizona.html">Page Grand Canyon</a>
         </div>
         </nav>
-    <h1>Bootsrap with Ducks</h1>
+    <h1>Camping in Wisconsin</h1>
     </div>
     <div class="container border">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum ea perspiciatis fugiat unde temporibus corporis eius fugit reprehenderit obcaecati, quod assumenda quos nihil error nemo suscipit sint totam quaerat?</p>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Introduction</h3>
+          <p>Hello, my name is Alain Ayala, I attend at MCC, aiming for my graphics design certificate. Today, I’m going to be talking about my adventure’s campouts that me and my family have gone throughout my 19 years of living.</p>
+          <p>One state park that me and my family always go is Devil Lake. Devil’s Lake is at Sauk County, Wisconsin.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Experience 1</h3>
+          <p>My family and I would usually go to Devils Lake for my uncle’s birthday<br>because he likes it their and he knows everyone will enjoy it.<br>The coolest<br> thing I’ve seen from Devils Lake are<br> the Hawks and vultures that appear flying around the park.<br> I would rate this park a solid 9.5/10.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Experience 1</h3>        
+          <p>I hope this will give you guys something to invest<br> on camping from different national parks in the united states.<br></p>
+        </div>
+      </div>
+
     <div class="row">
-        <div class="col"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minus maiores minima rerum deleniti modi. Maiores mollitia beatae ea incidunt laboriosam. Fugit, amet odio ipsum ex repudiandae molestias fuga aspernatur!</p></div>
-        <div class="col"><img src="../bootstrap/Images/animal-6149183_640.jpg" alt="Koi orange swimming" class = "img-fluid"></div>
-        <div class="col"><img src="../bootstrap/Images/blue-5059268_640.jpg" alt="Blue fish swimming"  class = "img-fluid"></div>
+        <div class="col"><p>The park is cool and amazing, the hike that me and my family always go are usually great, and we get to experience some great views. After me and my family finish hiking, we would go to an ice cream shop that the park had, and I would always be getting the blue moon ice cream. The texture and flavor of blue moon ice cream is something out of this world. It’s like tasting a different type of blue flavor ice cream.</p></div>
+        <div class="col"><img src="../bootstrap/Images/Ali with baby Devils lake.png" alt="Ali and Baby" title="Ali and Baby" class = "img-fluid" style="width: 115%;"></div>
+        <div class="col"><img src="../bootstrap/Images/Devils lake view.png" alt="Devils View Lake" title="Devils View Lake"  class = "img-fluid" style="width: 115%;"></div>
 
     </div>
-    <p class = "blockquote">If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family anatidae on our hands.</p>
+    <p class = "blockquote">"I believe the best campsite to go for beginners, has to be Devils Lake because it's very self-explanatory when your camping there, understanding how everything works, and everyone has a good time there."</p>
 
-    <footer class = "blockquote-footer">  Douglas Adams</footer>
+    <footer class = "blockquote-footer">  Alain Ayala</footer>
 
-    <div class="container mt-3">
-        <h1 class="display-4">Fishes Swimming</h1>
-        <a href="#demo" class="btn btn-primary" data-bs-toggle="collapse">Simple collapsible</a>
-  <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
+  <div class="container mt-3">
+    <h2>Desciption</h2>
+    <p>Click on the button to toggle between showing and hiding content.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+    <div id="demo" class="collapse">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
 
-    <table border="1"> <table class="table table-hover">
-        <tr>
-          <th>Common Name</th>
-          <th>Scientific Name</th>
-          <th>Description</th>
-        </tr>
-        <tr>
-          <td>Mallard</td>
-          <td>Anas platyrhynchos</td>
-          <td>The mallard is a dabbling duck that breeds throughout the temperate and subtropical Americas, Eurasia, and North Africa.</td>
-        </tr>
-        <tr>
-          <td>Wood Duck</td>
-          <td>Aix sponsa</td>
-          <td>Known for its spectacular coloration, the wood duck is one of the few ducks that nest in trees.</td>
-        </tr>
-        <tr>
-          <td>Northern Pintail</td>
-          <td>Anas acuta</td>
-          <td>Characterized by its long central tail feathers and elegant body shape, this duck is a common sight in Illinois wetlands.</td>
-        </tr>
-        <tr>
-          <td>Green-winged Teal</td>
-          <td>Anas crecca</td>
-          <td>The smallest North American dabbling duck, which is highly migratory and found in shallow ponds and wetlands.</td>
-        </tr>
-        <tr>
-          <td>American Black Duck</td>
-          <td>Anas rubripes</td>
-          <td>A large dabbling duck that is darker than the mallard and often found in saltwater marshes and estuaries.</td>
-        </tr>
-      </table>
-      
-    <p class="text-info">Citation: Information compiled and formatted by chatGPT from various sources on the common species of ducks found in Illinois.</p>
+    <div class="container">
+      <div class="grid-container">
+          <div><img src="Images/animal.jpg" 
+              alt="Big koi orange fish"
+              onclick='change("images/animal.jpg")'>
+              </div>
+          <div>
+              <img src="Images/blue.jpg" 
+              alt="Blue fish next to the rock"
+              onclick='change("Images/blue.jpg")'>
+              </div>
+          <div>
+              <img src="Images/discus-fish.jpg" 
+              alt="Pattern orange and white fish"
+              onclick='change("Images/discus-fish.jpg")'>
+              </div>
+          <div>
+              <img src="Images/fish.jpg" 
+              alt="Blue and yellow fish floating with background blue"
+              onclick='change("Images/fish.jpg")'>
+              </div>
+          <div>
+              <img src="Images/fishes.jpg" 
+              alt="Yellow with purple and background navy"
+              onclick='change("Images/fishes.jpg")'>
+              </div>
 
-    <div class="container mt-3">
-        <h2>Hoverable Dark Table</h2>
-        <p>The .table-hover class adds a hover effect (grey background color) on table rows:</p>            
-        <table class="table table-primary table-hover">
-          <thead>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Email</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
-            </tr>
-            <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
-            </tr>
-            <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@example.com</td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="container mt-3">
-            <h2>Thumbnail</h2>
-            <p class="text-bg-warning">This is a thumnail with the stripped orange fish.</p>          
-            <img src="../bootstrap/Images/discus-fish-1943755_640.jpg" class="img-thumbnail" alt="Orange stripped fish swimming" width="304" height="236"> 
+      </div>
+
+      <div id="main-image"></div>
+          <img src="Images/animal-6149183_640.jpg" alt="" id="large">
+
+
           </div>
-          
+  </div>
+      <footer>@Alain Ayala</footer> 
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

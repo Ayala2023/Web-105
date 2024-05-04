@@ -1,3 +1,136 @@
+/* 
+
+ Primary color: #F54305 
+
+ Secondary-color: #F46E04 
+
+ warning: #FAE3C0 
+
+ dark text: #FA1702 
+
+ light-text: #F7B919 
+
+ 
+
+  Fonts 
+
+  .bree-serif-regular { 
+
+  font-family: "Bree Serif", serif; 
+
+  font-weight: 400; 
+
+  font-style: normal; 
+
+} 
+
+  
+
+.merriweather-light { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 300; 
+
+  font-style: normal; 
+
+} 
+
+ 
+
+.merriweather-regular { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 400; 
+
+  font-style: normal; 
+
+} 
+
+ 
+
+.merriweather-bold { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 700; 
+
+  font-style: normal; 
+
+} 
+
+ 
+
+.merriweather-black { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 900; 
+
+  font-style: normal; 
+
+} 
+
+ 
+
+.merriweather-light-italic { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 300; 
+
+  font-style: italic; 
+
+} 
+
+ 
+
+.merriweather-regular-italic { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 400; 
+
+  font-style: italic; 
+
+} 
+
+ 
+
+.merriweather-bold-italic { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 700; 
+
+  font-style: italic; 
+
+} 
+
+ 
+
+.merriweather-black-italic { 
+
+  font-family: "Merriweather", serif; 
+
+  font-weight: 900; 
+
+  font-style: italic; 
+
+} 
+
+*/
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+body{
+    background-color: rgb(226, 157, 28);
+
+}
+
 .masthead{
     background-color: rebeccapurple;
     color:gold;
@@ -12,17 +145,18 @@
 }
 
 .border{
-    border-color: rebeccapurple;
-    border-radius: 10px;
+    border-color: orange;
+    border-radius: 20px;
     max-width: auto;
 }
 
-.bg-purple{
-    background-color: rebeccapurple;
+.bg-orange{
+    background-color: orange;
 }
 
 .container{
     background-color: gold;
+    border: 2px solid black;
 }
 
 p{
@@ -44,4 +178,85 @@ img{
     color: aliceblue;
     border-radius: 30px;
     text-overflow: ellipsis;
+}
+
+.col-sm-4{
+    color: solid black;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid #9151DB;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: white;
+    background: #9151DB;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: purple;
+    color: white;
+  }
+
+h1, h2, h3, h4{
+    font-family: "DM Serif Display", serif;
+}
+
+/* 🦆🦆🦆           Grid Layout       🦆🦆🪿  */
+
+
+.grid-container {
+    display: grid; /* this creates a grid layout  */
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+
+
+}
+
+.grid-container > div > img{
+    width: 90%;
+}
+
+#large{
+    width: 40%;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    background: rebeccapurple;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+    border: 2px solid rgb(204, 26, 204);
+    background-color: #9151DB;
+    color: beige;
+}
+
+.blockquote-footer{
+    color: white;
 }
