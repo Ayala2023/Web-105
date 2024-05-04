@@ -154,6 +154,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  background-color:#F7B919
 }
 
  😗/*   my styles   */😗
@@ -179,7 +180,7 @@ figcaption {
     width: 50%;
     margin: auto;
     font-size: x-large;
-    border-radius: 30%;
+    border-radius: 40%;
 }
 
 #city{
@@ -224,8 +225,12 @@ u{
 
 p{
   color: #FA1702;
-  font-size: x-large;
-  text-overflow: ellipsis;
+  font-size: large;
+}
+
+.positioned-paragraph {
+  position: relative; /* Position absolutely */
+  left: 50px; /* Distance from the left */
 }
 
 .container{
@@ -234,10 +239,11 @@ p{
 }
 article {
   float: left;
-  padding: 20px;
+  padding: 10px;
+  margin: auto;
   width: 30%;
   background-color: #f1f1f1;
-  height: fit-content;
+  height: 700px;
 }
 
 footer {
@@ -262,6 +268,7 @@ footer {
 
 #aside-left{
   text-align: left;
+  font-size: xx-large;
 }
 
   * {
@@ -282,17 +289,52 @@ footer {
 
 img{
   border-radius: 10%;
-
+  background-color: lightblue;
 }
 
 #move-right{
   position:relative; /* Make sure it's positioned relative or absolute */
   left: 700px; /* Move 50 pixels to the right */
   bottom: 20px; /* Move 20 pixels down */
+  font-size: large;
+  
 }
 
 .moved-image {
   position:relative; /* Make sure it's positioned relative or absolute */
   left: 300px; /* Move 50 pixels to the right */
   bottom: 10px; /* Move 20 pixels down */
+}
+
+#trans{
+  position:relative; /* Make sure it's positioned relative or absolute */
+  left:600px; /* Move 50 pixels to the right */
+  height: 20px;
+}
+
+#rock{
+  position:relative;
+  right: 500px;
+  top: 500px;
+}
+
+#text{
+  border: 2px solid purple;
+}
+
+#page-1{
+  background-color: plum;
+  line-height: 30px;
+  text-align: right;
+}
+
+p.dotted{
+  border-style: dotted;
+  color: #F46E04;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
