@@ -195,7 +195,14 @@ img{
     width: 40%;
     margin: 15px auto;
 }
+.img-fluid{
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
 
+form{
+    font-size: x-large;
+}
 
 nav{
     text-align: center;
@@ -231,7 +238,7 @@ h1, h2, h3, h4{
 .grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     cursor: pointer;
 
 
@@ -242,7 +249,7 @@ h1, h2, h3, h4{
 }
 
 #large{
-    width: 40%;
+    width: 70%;
     display: block;
     margin: 25px auto;
     padding: 20px;

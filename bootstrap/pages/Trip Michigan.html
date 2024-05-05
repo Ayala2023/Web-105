@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Your style sheet must go AFTER the bootsrap link -->
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 
 </head>
   <body>
@@ -23,23 +29,28 @@
     <h1>Camping in Michigan</h1>
     </div>
     <div class="container border">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nostrum ea perspiciatis fugiat unde temporibus corporis eius fugit reprehenderit obcaecati, quod assumenda quos nihil error nemo suscipit sint totam quaerat?</p>
+      <div class="container">
+        <h1 style="text-align:center;">Upper Peninsula Michigan</h1>
+
+        <p>The next park that me and my family went was Upper Peninsula Park Michigan. This Michigan park was cool. Me and my family went a lot of places near the campground.</p>
+        <p>I remember one time, me and my family took a 1 in a half hour walk to a beach, where we can see Michigan Lake. The walk was long and boring, I felt like my feet were going to die on me.Luckily, me and my family made it to the beach, and it was really a nice warm feeling. The sand felt fresh, and the waves were fun to run at. It was worth the walk.</p>
+        <p>I remember my fist night camping at Michigan, I thought I was going to get jumped by bears because Michigan is known for having bears in the wild, so my anxiety was kicking in, but luckily that night was fine. I would rate camp a solid out of 8/10.</p>
+      
+
     <div class="row">
-        <div class="col"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minus maiores minima rerum deleniti modi. Maiores mollitia beatae ea incidunt laboriosam. Fugit, amet odio ipsum ex repudiandae molestias fuga aspernatur!</p></div>
-        <div class="col"><img src="../bootstrap/Images/animal-6149183_640.jpg" alt="Koi orange swimming" class = "img-fluid"></div>
-        <div class="col"><img src="../bootstrap/Images/blue-5059268_640.jpg" alt="Blue fish swimming"  class = "img-fluid"></div>
-
+        <div class="col"><p>I remember one time, me and my cousins found a one single slide from the campground that we were camping at, and we just had an idea of having one person goes in the middle of the slide, so not going all the way down just half-way and one by one, we would see how much the bottom person in the slide can hold us.</p></div>
+        <div class="col"><img src="../Images/Family at Michigan.png" alt="Family at Michigan" title="Family at Michigan" class = "img-fluid" style="width: 115%;"><figcaption>Fig1.- Part of the Family</figcaption></div>
+        <div class="col"><img src="../Images/Girls at Michigan.png" alt="The Girls" title="The Girls" class = "img-fluid" style="width: 115%;"><figcaption>Fig2.- The Girls on Sand</figcaption></div>
     </div>
-    <p class = "blockquote">If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family anatidae on our hands.</p>
+  </div>
+    <p class = "blockquote">"If we don't find the beach, and we walk miles for nothing, than I'm leaving."</p>
 
-    <footer class = "blockquote-footer">  Douglas Adams</footer>
+    <footer class = "blockquote-footer">Alain Ayala</footer>
 
-    
-    
     <div class="container mt-3">
-        <h2>Hoverable Dark Table</h2>
-        <p>The .table-hover class adds a hover effect (grey background color) on table rows:</p>            
-        <table class="table table-primary table-hover">
+        <h2>Contact Information</h2>
+        <p>These are all the adults contacts that wen't to the Upper Peninsula Michigan camping trip.</p>            
+        <table class="table table-bg-warning p-3 table-hover">
           <thead>
             <tr>
               <th>Firstname</th>
@@ -49,30 +60,78 @@
           </thead>
           <tbody>
             <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>john@example.com</td>
+              <td>Jenny</td>
+              <td>Ayala</td>
+              <td>Jennifer@example.com</td>
             </tr>
             <tr>
-              <td>Mary</td>
-              <td>Moe</td>
-              <td>mary@example.com</td>
+              <td>Izzy</td>
+              <td>Ayala</td>
+              <td>Izzy@example.com</td>
             </tr>
             <tr>
-              <td>July</td>
-              <td>Dooley</td>
-              <td>july@example.com</td>
+              <td>Cindy</td>
+              <td>Hernandez</td>
+              <td>Cindy@example.com</td>
+            </tr>
+            <tr>
+              <td>Maria</td>
+              <td>Ayala</td>
+              <td>Maria@example.com</td>
+            </tr>
+            <tr>
+              <td>Jatziri</td>
+              <td>Ayala</td>
+              <td>Jatziri@example.com</td>
             </tr>
           </tbody>
         </table>
+      </div>
         <div class="container mt-3">
-            <h2>Thumbnail</h2>
-            <p class="text-bg-warning">This is a thumnail with the stripped orange fish.</p>          
-            <img src="../bootstrap/Images/discus-fish-1943755_640.jpg" class="img-thumbnail" alt="Orange stripped fish swimming" width="304" height="236"> 
+           <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <h1>More Photos on Michigan</h1>
+    <div class="carousel-item active">
+      <img src="../Images/Grandma at Michigan.png" alt="Grandma at Michigan" title="Grandma at Michigan" class="d-block" style="width:100%">
+      <figcaption>Fig3.- My Grandma and Cousin</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img src="../Images/Guys at Michigan.png" alt="Guys at Michigan" title="Guys at Michigan" class="d-block" style="width:100%">
+      <figcaption>Fig4.- Blury photo of my siblings</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img src="../Images/Tent at Michigan.png" alt="Tent at Michigan" title="Tent at Michigan" class="d-block" style="width:100%">
+      <figcaption>Fig5.- Photo of our tent</figcaption>
+    </div>
+    <div class="carousel-item">
+      <img src="../Images/View at Michigan.png" alt="View at Michigan" title="View at Michigan" class="d-block" style="width:100%">
+      <figcaption>Fig6.- The View of Lake Michigan</figcaption>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
           </div>
           
 
-    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
