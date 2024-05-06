@@ -175,7 +175,7 @@ img{
     text-align: center;
     background-color: rebeccapurple;
     text-decoration: dashed solid white;
-    color: aliceblue;
+    color: white;
     border-radius: 30px;
     text-overflow: ellipsis;
 }
@@ -203,6 +203,10 @@ img{
 form{
     font-size: x-large;
 }
+
+.big-radio {
+    transform: scale(1.5); /* Adjust the size as needed */
+  }
 
 nav{
     text-align: center;
@@ -259,7 +263,7 @@ h1, h2, h3, h4{
 footer{
     text-align: center;
     font-size: large;
-    border: 2px solid rgb(204, 26, 204);
+    border-radius: 30px;
     background-color: #9151DB;
     color: beige;
 }
